@@ -1,0 +1,77 @@
+name: Propose a Free API to Monitor
+description: Suggest a new free, public, keyless API to include in the FreeAPI Status directory
+title: "feat(api): add [API Name]"
+labels: ["api-request", "triage"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ### Thanks for contributing to FreeAPI Status!
+        Before submitting, ensure the API is **100% free**, does **not require registration/keys**, uses **HTTPS**, and returns a valid `200 OK` on a lightweight `GET` endpoint.
+
+  - type: input
+    id: api_name
+    attributes:
+      label: API Name
+      description: The official human-readable name of the API.
+      placeholder: "e.g. Open-Meteo Weather"
+    validations:
+      required: true
+
+  - type: input
+    id: api_id
+    attributes:
+      label: Suggested Slug ID
+      description: Lowercase kebab-case identifier.
+      placeholder: "e.g. open-meteo"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: category
+    attributes:
+      label: Category
+      description: Select the most accurate classification.
+      options:
+        - Weather
+        - Fun
+        - Finance
+        - Dev Tools
+        - Geo
+        - Data
+        - AI & ML
+        - Science
+    validations:
+      required: true
+
+  - type: input
+    id: test_url
+    attributes:
+      label: Health Check Endpoint URL
+      description: A lightweight GET endpoint that returns 200 OK without headers or authentication.
+      placeholder: "https://api.example.com/v1/ping"
+    validations:
+      required: true
+
+  - type: input
+    id: docs_url
+    attributes:
+      label: Official Documentation URL
+      description: Link to developer documentation or repository.
+      placeholder: "https://docs.example.com"
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: qualifications
+    attributes:
+      label: Quality & Reliability Checklist
+      options:
+        - label: "I have verified this API requires NO API keys or authentication tokens."
+          required: true
+        - label: "The endpoint uses strict HTTPS."
+          required: true
+        - label: "The test endpoint returns a lightweight payload (< 50KB)."
+          required: true
+        - label: "This API is intended for public consumption and has fair-use allowances."
+          required: true

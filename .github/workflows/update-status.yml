@@ -1,0 +1,62 @@
+name: Update FreeAPI Status
+
+on:
+  schedule:
+    # Run at the top of every hour (00:00, 01:00, ...)
+    - cron: '0 * * * *'
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+
+# Ensure only one checker job runs at a time to prevent race conditions
+concurrency:
+  group: status-checker
+  cancel-in-progress: false
+
+# Grant GITHUB_TOKEN write access to commit updated data/status.json
+permissions:
+  contents: write
+
+jobs:
+  check-and-update:
+    name: Check API Health & Update Telemetry
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          # Fetch full history to support rebasing cleanly
+          fetch-depth: 0
+
+      - name: Set up Node.js 20
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Run API health check script
+        run: node scripts/check.js
+
+      - name: Commit and push status updates
+        run: |
+          # Configure git identity as the official GitHub Actions bot
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          # Only commit if data/status.json has changes
+          if git diff --quiet data/status.json; then
+            echo "ℹ️ data/status.json is unchanged. Skipping commit."
+            exit 0
+          fi
+
+          echo "📝 Changes detected in data/status.json. Staging and committing..."
+          git add data/status.json
+          git commit -m "chore: update status [skip ci]"
+
+          # Rebase on remote main to handle race conditions before pushing
+          echo "🔄 Pulling latest changes with rebase..."
+          git pull --rebase origin main
+
+          echo "🚀 Pushing updated status telemetry..."
+          git push origin main

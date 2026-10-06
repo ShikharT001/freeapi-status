@@ -1,0 +1,326 @@
+[
+  {
+    "id": "open-meteo",
+    "name": "Open-Meteo",
+    "category": "Weather",
+    "url": "https://api.open-meteo.com/v1/forecast?latitude=52.52&longitude=13.41&current_weather=true",
+    "expected_status": 200,
+    "timeout_ms": 8000,
+    "docs_url": "https://open-meteo.com/en/docs"
+  },
+  {
+    "id": "wttr-in",
+    "name": "wttr.in",
+    "category": "Weather",
+    "url": "https://wttr.in/London?format=j1",
+    "expected_status": 200,
+    "timeout_ms": 8000,
+    "docs_url": "https://github.com/chubin/wttr.in"
+  },
+  {
+    "id": "sunrise-sunset",
+    "name": "Sunrise Sunset API",
+    "category": "Weather",
+    "url": "https://api.sunrisesunset.io/json?lat=38.907192&lng=-77.036871",
+    "expected_status": 200,
+    "timeout_ms": 8000,
+    "docs_url": "https://sunrisesunset.io/api"
+  },
+  {
+    "id": "nws-weather",
+    "name": "National Weather Service",
+    "category": "Weather",
+    "url": "https://api.weather.gov/points/38.8894,-77.0352",
+    "expected_status": 200,
+    "timeout_ms": 8000,
+    "docs_url": "https://www.weather.gov/documentation/services-web-api"
+  },
+  {
+    "id": "pokeapi",
+    "name": "PokéAPI",
+    "category": "Fun",
+    "url": "https://pokeapi.co/api/v2/pokemon/1",
+    "expected_status": 200,
+    "timeout_ms": 8000,
+    "docs_url": "https://pokeapi.co/docs/v2"
+  },
+  {
+    "id": "dog-ceo",
+    "name": "Dog CEO",
+    "category": "Fun",
+    "url": "https://dog.ceo/api/breeds/image/random",
+    "expected_status": 200,
+    "timeout_ms": 8000,
+    "docs_url": "https://dog.ceo/dog-api/documentation"
+  },
+  {
+    "id": "cat-facts",
+    "name": "Cat Facts",
+    "category": "Fun",
+    "url": "https://catfact.ninja/fact",
+    "expected_status": 200,
+    "timeout_ms": 8000,
+    "docs_url": "https://catfact.ninja"
+  },
+  {
+    "id": "official-joke-api",
+    "name": "Official Joke API",
+    "category": "Fun",
+    "url": "https://official-joke-api.appspot.com/random_joke",
+    "expected_status": 200,
+    "timeout_ms": 8000,
+    "docs_url": "https://github.com/15Dkatz/official_joke_api"
+  },
+  {
+    "id": "chucknorris",
+    "name": "Chuck Norris Jokes",
+    "category": "Fun",
+    "url": "https://api.chucknorris.io/jokes/random",
+    "expected_status": 200,
+    "timeout_ms": 8000,
+    "docs_url": "https://api.chucknorris.io"
+  },
+  {
+    "id": "imgflip",
+    "name": "Imgflip Meme Directory",
+    "category": "Fun",
+    "url": "https://api.imgflip.com/get_memes",
+    "expected_status": 200,
+    "timeout_ms": 8000,
+    "docs_url": "https://imgflip.com/api"
+  },
+  {
+    "id": "bored-api",
+    "name": "The Bored API",
+    "category": "Fun",
+    "url": "https://bored-api.appbrewery.com/random",
+    "expected_status": 200,
+    "timeout_ms": 8000,
+    "docs_url": "https://bored-api.appbrewery.com"
+  },
+  {
+    "id": "tvmaze",
+    "name": "TVMaze Show Search",
+    "category": "Fun",
+    "url": "https://api.tvmaze.com/singlesearch/shows?q=girls",
+    "expected_status": 200,
+    "timeout_ms": 8000,
+    "docs_url": "https://www.tvmaze.com/api"
+  },
+  {
+    "id": "uselessfacts",
+    "name": "Useless Facts API",
+    "category": "Fun",
+    "url": "https://uselessfacts.jsph.pl/api/v2/facts/random",
+    "expected_status": 200,
+    "timeout_ms": 8000,
+    "docs_url": "https://uselessfacts.jsph.pl"
+  },
+  {
+    "id": "coingecko-ping",
+    "name": "CoinGecko Ping",
+    "category": "Finance",
+    "url": "https://api.coingecko.com/api/v3/ping",
+    "expected_status": 200,
+    "timeout_ms": 8000,
+    "docs_url": "https://www.coingecko.com/en/api/documentation"
+  },
+  {
+    "id": "frankfurter",
+    "name": "Frankfurter Exchange Rates",
+    "category": "Finance",
+    "url": "https://api.frankfurter.app/latest",
+    "expected_status": 200,
+    "timeout_ms": 8000,
+    "docs_url": "https://frankfurter.dev"
+  },
+  {
+    "id": "coinpaprika",
+    "name": "CoinPaprika Ping",
+    "category": "Finance",
+    "url": "https://api.coinpaprika.com/v1/ping",
+    "expected_status": 200,
+    "timeout_ms": 8000,
+    "docs_url": "https://api.coinpaprika.com"
+  },
+  {
+    "id": "coinbase",
+    "name": "Coinbase Exchange Rates",
+    "category": "Finance",
+    "url": "https://api.coinbase.com/v2/exchange-rates?currency=USD",
+    "expected_status": 200,
+    "timeout_ms": 8000,
+    "docs_url": "https://docs.cdp.coinbase.com"
+  },
+  {
+    "id": "binance-ping",
+    "name": "Binance Spot Ping",
+    "category": "Finance",
+    "url": "https://api.binance.com/api/v3/ping",
+    "expected_status": 200,
+    "timeout_ms": 8000,
+    "docs_url": "https://binance-docs.github.io/apidocs/spot/en"
+  },
+  {
+    "id": "jsonplaceholder",
+    "name": "JSONPlaceholder",
+    "category": "Dev Tools",
+    "url": "https://jsonplaceholder.typicode.com/posts/1",
+    "expected_status": 200,
+    "timeout_ms": 8000,
+    "docs_url": "https://jsonplaceholder.typicode.com"
+  },
+  {
+    "id": "github-zen",
+    "name": "GitHub Zen",
+    "category": "Dev Tools",
+    "url": "https://api.github.com/zen",
+    "expected_status": 200,
+    "timeout_ms": 8000,
+    "docs_url": "https://docs.github.com/en/rest"
+  },
+  {
+    "id": "httpbin",
+    "name": "HTTPBin",
+    "category": "Dev Tools",
+    "url": "https://httpbin.org/get",
+    "expected_status": 200,
+    "timeout_ms": 8000,
+    "docs_url": "https://httpbin.org"
+  },
+  {
+    "id": "reqres",
+    "name": "ReqRes",
+    "category": "Dev Tools",
+    "url": "https://reqres.in/api/users/1",
+    "expected_status": 200,
+    "timeout_ms": 8000,
+    "docs_url": "https://reqres.in"
+  },
+  {
+    "id": "dicebear",
+    "name": "DiceBear Avatars",
+    "category": "Dev Tools",
+    "url": "https://api.dicebear.com/7.x/bottts/svg?seed=Felix",
+    "expected_status": 200,
+    "timeout_ms": 8000,
+    "docs_url": "https://www.dicebear.com/how-to-use/http-api"
+  },
+  {
+    "id": "rest-countries",
+    "name": "REST Countries",
+    "category": "Geo",
+    "url": "https://restcountries.com/v3.1/alpha/us",
+    "expected_status": 200,
+    "timeout_ms": 8000,
+    "docs_url": "https://restcountries.com"
+  },
+  {
+    "id": "ipify",
+    "name": "ipify IP Lookup",
+    "category": "Geo",
+    "url": "https://api.ipify.org?format=json",
+    "expected_status": 200,
+    "timeout_ms": 8000,
+    "docs_url": "https://www.ipify.org"
+  },
+  {
+    "id": "ipwhois",
+    "name": "IPWHOIS Geolocation",
+    "category": "Geo",
+    "url": "https://ipwho.is/8.8.8.8",
+    "expected_status": 200,
+    "timeout_ms": 8000,
+    "docs_url": "https://ipwhois.io/documentation"
+  },
+  {
+    "id": "postcodes-io",
+    "name": "Postcodes.io UK",
+    "category": "Geo",
+    "url": "https://api.postcodes.io/postcodes/SW1A1AA",
+    "expected_status": 200,
+    "timeout_ms": 8000,
+    "docs_url": "https://postcodes.io"
+  },
+  {
+    "id": "geocoding-meteo",
+    "name": "Open-Meteo Geocoding",
+    "category": "Geo",
+    "url": "https://geocoding-api.open-meteo.com/v1/search?name=Berlin&count=1",
+    "expected_status": 200,
+    "timeout_ms": 8000,
+    "docs_url": "https://open-meteo.com/en/docs/geocoding-api"
+  },
+  {
+    "id": "zippopotam",
+    "name": "Zippopotam Postal Code",
+    "category": "Geo",
+    "url": "https://api.zippopotam.us/us/90210",
+    "expected_status": 200,
+    "timeout_ms": 8000,
+    "docs_url": "https://www.zippopotam.us"
+  },
+  {
+    "id": "open-library",
+    "name": "Open Library",
+    "category": "Data",
+    "url": "https://openlibrary.org/books/OL7353617M.json",
+    "expected_status": 200,
+    "timeout_ms": 8000,
+    "docs_url": "https://openlibrary.org/developers/api"
+  },
+  {
+    "id": "artic",
+    "name": "Art Institute of Chicago",
+    "category": "Data",
+    "url": "https://api.artic.edu/api/v1/artworks/129884",
+    "expected_status": 200,
+    "timeout_ms": 8000,
+    "docs_url": "https://api.artic.edu/docs"
+  },
+  {
+    "id": "agify",
+    "name": "Agify.io",
+    "category": "Data",
+    "url": "https://api.agify.io?name=michael",
+    "expected_status": 200,
+    "timeout_ms": 8000,
+    "docs_url": "https://agify.io"
+  },
+  {
+    "id": "genderize",
+    "name": "Genderize.io",
+    "category": "Data",
+    "url": "https://api.genderize.io?name=luc",
+    "expected_status": 200,
+    "timeout_ms": 8000,
+    "docs_url": "https://genderize.io"
+  },
+  {
+    "id": "datamuse",
+    "name": "Datamuse Word API",
+    "category": "Data",
+    "url": "https://api.datamuse.com/words?rel_rhy=forget",
+    "expected_status": 200,
+    "timeout_ms": 8000,
+    "docs_url": "https://www.datamuse.com/api"
+  },
+  {
+    "id": "randomuser",
+    "name": "Random User Generator",
+    "category": "Data",
+    "url": "https://randomuser.me/api/?results=1",
+    "expected_status": 200,
+    "timeout_ms": 8000,
+    "docs_url": "https://randomuser.me/documentation"
+  },
+  {
+    "id": "iss-location",
+    "name": "Where The ISS At?",
+    "category": "Science",
+    "url": "https://api.wheretheiss.at/v1/satellites/25544",
+    "expected_status": 200,
+    "timeout_ms": 8000,
+    "docs_url": "https://wheretheiss.at/w/developer"
+  }
+]

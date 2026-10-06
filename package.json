@@ -1,0 +1,10 @@
+{
+  "name": "freeapi-status",
+  "version": "1.0.0",
+  "description": "Public status dashboard monitoring popular free, keyless APIs",
+  "type": "module",
+  "scripts": {
+    "check": "node scripts/check.js"
+  },
+  "private": true
+}

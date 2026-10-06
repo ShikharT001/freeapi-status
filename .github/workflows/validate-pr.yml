@@ -1,0 +1,25 @@
+name: Validate API Registry PR
+
+on:
+  pull_request:
+    paths:
+      - 'config/apis.json'
+      - 'scripts/**'
+      - '.github/workflows/validate-pr.yml'
+
+jobs:
+  validate-schema:
+    name: Verify API Registry & Config Schema
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout PR branch
+        uses: actions/checkout@v4
+
+      - name: Set up Node.js 20
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Validate API entries schema & HTTPS security
+        run: node scripts/validate.js

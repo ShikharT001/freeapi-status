@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>FreeAPI Status — Social Share Card (1200x630)</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&family=JetBrains+Mono:wght@500;700&display=swap" rel="stylesheet">
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      width: 1200px;
+      height: 630px;
+      background: #08090d;
+      font-family: 'Inter', sans-serif;
+      color: #f8fafc;
+      position: relative;
+      overflow: hidden;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      padding: 72px 80px;
+    }
+    /* Mesh blobs */
+    .blob {
+      position: absolute;
+      border-radius: 50%;
+      filter: blur(120px);
+      pointer-events: none;
+    }
+    .blob-1 { width: 600px; height: 600px; background: rgba(99, 102, 241, 0.28); top: -200px; left: -100px; }
+    .blob-2 { width: 500px; height: 500px; background: rgba(168, 85, 247, 0.2); bottom: -150px; right: -50px; }
+    .blob-3 { width: 450px; height: 450px; background: rgba(16, 185, 129, 0.15); bottom: -100px; left: 350px; }
+    
+    /* Noise texture */
+    .noise {
+      position: absolute;
+      inset: 0;
+      background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.8' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='0.045'/%3E%3C/svg%3E");
+      mix-blend-mode: overlay;
+      pointer-events: none;
+    }
+
+    .header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      position: relative;
+      z-index: 2;
+    }
+
+    .brand {
+      display: flex;
+      align-items: center;
+      gap: 16px;
+      font-size: 28px;
+      font-weight: 800;
+      letter-spacing: -0.03em;
+    }
+
+    .brand-icon {
+      width: 48px;
+      height: 48px;
+      border-radius: 14px;
+      background: linear-gradient(135deg, rgba(99, 102, 241, 0.3), rgba(16, 185, 129, 0.3));
+      border: 1px solid rgba(255, 255, 255, 0.15);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: #10b981;
+    }
+
+    .brand-highlight { color: #6366f1; }
+
+    .live-badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 10px;
+      padding: 10px 22px;
+      border-radius: 9999px;
+      background: rgba(16, 185, 129, 0.14);
+      border: 1px solid rgba(16, 185, 129, 0.35);
+      color: #10b981;
+      font-family: 'JetBrains Mono', monospace;
+      font-size: 16px;
+      font-weight: 600;
+    }
+
+    .pulse {
+      width: 10px;
+      height: 10px;
+      border-radius: 50%;
+      background: #10b981;
+      box-shadow: 0 0 14px #10b981;
+    }
+
+    .content {
+      position: relative;
+      z-index: 2;
+      max-width: 880px;
+    }
+
+    .title {
+      font-size: 64px;
+      font-weight: 800;
+      letter-spacing: -0.04em;
+      line-height: 1.08;
+      margin-bottom: 20px;
+    }
+
+    .gradient-text {
+      background: linear-gradient(135deg, #ffffff 20%, #94a3b8 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+
+    .subtitle {
+      font-size: 24px;
+      color: #94a3b8;
+      line-height: 1.45;
+      max-width: 760px;
+    }
+
+    .footer {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      position: relative;
+      z-index: 2;
+      padding-top: 32px;
+      border-top: 1px solid rgba(255, 255, 255, 0.1);
+    }
+
+    .stats {
+      display: flex;
+      align-items: center;
+      gap: 40px;
+    }
+
+    .stat-item {
+      display: flex;
+      flex-direction: column;
+      gap: 4px;
+    }
+
+    .stat-val {
+      font-family: 'JetBrains Mono', monospace;
+      font-size: 32px;
+      font-weight: 700;
+      color: #f8fafc;
+    }
+
+    .stat-val--green { color: #10b981; }
+
+    .stat-label {
+      font-size: 13px;
+      text-transform: uppercase;
+      letter-spacing: 0.06em;
+      color: #64748b;
+    }
+
+    .meta {
+      font-family: 'JetBrains Mono', monospace;
+      font-size: 15px;
+      color: #64748b;
+    }
+  </style>
+</head>
+<body>
+  <div class="blob blob-1"></div>
+  <div class="blob blob-2"></div>
+  <div class="blob blob-3"></div>
+  <div class="noise"></div>
+
+  <div class="header">
+    <div class="brand">
+      <div class="brand-icon">
+        <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+          <path d="M22 12h-4l-3 9L9 3l-3 9H2" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
+      </div>
+      <span>FreeAPI<span class="brand-highlight">Status</span></span>
+    </div>
+
+    <div class="live-badge">
+      <div class="pulse"></div>
+      <span>ALL SYSTEMS OPERATIONAL</span>
+    </div>
+  </div>
+
+  <div class="content">
+    <h1 class="title">
+      Live Telemetry &amp; Uptime for <span class="gradient-text">Public Free APIs</span>
+    </h1>
+    <p class="subtitle">
+      Automated hourly health checks, latency sparklines, and 24h SLA history for 20+ keyless developer APIs.
+    </p>
+  </div>
+
+  <div class="footer">
+    <div class="stats">
+      <div class="stat-item">
+        <span class="stat-val">36</span>
+        <span class="stat-label">APIs Monitored</span>
+      </div>
+      <div class="stat-item">
+        <span class="stat-val stat-val--green">100%</span>
+        <span class="stat-label">System Health</span>
+      </div>
+      <div class="stat-item">
+        <span class="stat-val">&lt; 800ms</span>
+        <span class="stat-label">Avg Response</span>
+      </div>
+    </div>
+    <div class="meta">
+      github.com/freeapi-status • Checked Hourly
+    </div>
+  </div>
+</body>
+</html>
