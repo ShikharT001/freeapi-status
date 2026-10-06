@@ -29,7 +29,7 @@
 ## 📸 Preview
 
 <div align="center">
-  <img src="og-image.html" alt="FreeAPI Status Dashboard Preview" width="100%" style="border-radius: 12px; border: 1px solid rgba(255,255,255,0.1);" />
+  <img src="og-image.png" alt="FreeAPI Status Dashboard Preview" width="100%" style="border-radius: 12px; border: 1px solid rgba(255,255,255,0.1);" />
   <p><em>Premium glassmorphic dashboard inspired by Vercel, Linear, and Stripe. Fully responsive with zero runtime frameworks.</em></p>
 </div>
 
