@@ -1,13 +1,13 @@
 {
-  "last_updated": "2026-10-30T22:51:33.347Z",
+  "last_updated": "2026-10-31T02:08:28.416Z",
   "summary": {
     "total_apis": 36,
     "total": 36,
-    "operational": 17,
-    "degraded": 18,
+    "operational": 23,
+    "degraded": 12,
     "down": 1,
-    "average_response_ms": 1175,
-    "avg_response_ms": 1175,
+    "average_response_ms": 809,
+    "avg_response_ms": 809,
     "system_status": "partial_outage"
   },
   "apis": [
@@ -18,16 +18,10 @@
       "url": "https://api.open-meteo.com/v1/forecast?latitude=52.52&longitude=13.41&current_weather=true",
       "docs_url": "https://open-meteo.com/en/docs",
       "status": "operational",
-      "response_ms": 799,
+      "response_ms": 606,
       "http_code": 200,
       "uptime_24h": 100,
       "history": [
-        {
-          "timestamp": "2026-10-21T09:18:33.727Z",
-          "status": "operational",
-          "response_ms": 723,
-          "http_code": 200
-        },
         {
           "timestamp": "2026-10-21T14:57:50.079Z",
           "status": "operational",
@@ -309,6 +303,12 @@
           "status": "operational",
           "response_ms": 799,
           "http_code": 200
+        },
+        {
+          "timestamp": "2026-10-31T02:08:28.416Z",
+          "status": "operational",
+          "response_ms": 606,
+          "http_code": 200
         }
       ]
     },
@@ -319,16 +319,10 @@
       "url": "https://wttr.in/London?format=j1",
       "docs_url": "https://github.com/chubin/wttr.in",
       "status": "operational",
-      "response_ms": 636,
+      "response_ms": 509,
       "http_code": 200,
       "uptime_24h": 100,
       "history": [
-        {
-          "timestamp": "2026-10-21T09:18:33.727Z",
-          "status": "operational",
-          "response_ms": 970,
-          "http_code": 200
-        },
         {
           "timestamp": "2026-10-21T14:57:50.079Z",
           "status": "degraded",
@@ -610,6 +604,12 @@
           "status": "operational",
           "response_ms": 636,
           "http_code": 200
+        },
+        {
+          "timestamp": "2026-10-31T02:08:28.416Z",
+          "status": "operational",
+          "response_ms": 509,
+          "http_code": 200
         }
       ]
     },
@@ -620,16 +620,10 @@
       "url": "https://api.sunrisesunset.io/json?lat=38.907192&lng=-77.036871",
       "docs_url": "https://sunrisesunset.io/api",
       "status": "operational",
-      "response_ms": 511,
+      "response_ms": 311,
       "http_code": 200,
       "uptime_24h": 100,
       "history": [
-        {
-          "timestamp": "2026-10-21T09:18:33.727Z",
-          "status": "operational",
-          "response_ms": 240,
-          "http_code": 200
-        },
         {
           "timestamp": "2026-10-21T14:57:50.079Z",
           "status": "operational",
@@ -911,6 +905,12 @@
           "status": "operational",
           "response_ms": 511,
           "http_code": 200
+        },
+        {
+          "timestamp": "2026-10-31T02:08:28.416Z",
+          "status": "operational",
+          "response_ms": 311,
+          "http_code": 200
         }
       ]
     },
@@ -921,16 +921,10 @@
       "url": "https://api.weather.gov/points/38.8894,-77.0352",
       "docs_url": "https://www.weather.gov/documentation/services-web-api",
       "status": "operational",
-      "response_ms": 362,
+      "response_ms": 266,
       "http_code": 200,
       "uptime_24h": 100,
       "history": [
-        {
-          "timestamp": "2026-10-21T09:18:33.727Z",
-          "status": "operational",
-          "response_ms": 211,
-          "http_code": 200
-        },
         {
           "timestamp": "2026-10-21T14:57:50.079Z",
           "status": "operational",
@@ -1212,6 +1206,12 @@
           "status": "operational",
           "response_ms": 362,
           "http_code": 200
+        },
+        {
+          "timestamp": "2026-10-31T02:08:28.416Z",
+          "status": "operational",
+          "response_ms": 266,
+          "http_code": 200
         }
       ]
     },
@@ -1222,16 +1222,10 @@
       "url": "https://pokeapi.co/api/v2/pokemon/1",
       "docs_url": "https://pokeapi.co/docs/v2",
       "status": "operational",
-      "response_ms": 406,
+      "response_ms": 243,
       "http_code": 200,
       "uptime_24h": 100,
       "history": [
-        {
-          "timestamp": "2026-10-21T09:18:33.727Z",
-          "status": "operational",
-          "response_ms": 188,
-          "http_code": 200
-        },
         {
           "timestamp": "2026-10-21T14:57:50.079Z",
           "status": "operational",
@@ -1513,6 +1507,12 @@
           "status": "operational",
           "response_ms": 406,
           "http_code": 200
+        },
+        {
+          "timestamp": "2026-10-31T02:08:28.416Z",
+          "status": "operational",
+          "response_ms": 243,
+          "http_code": 200
         }
       ]
     },
@@ -1523,16 +1523,10 @@
       "url": "https://dog.ceo/api/breeds/image/random",
       "docs_url": "https://dog.ceo/dog-api/documentation",
       "status": "operational",
-      "response_ms": 779,
+      "response_ms": 588,
       "http_code": 200,
       "uptime_24h": 100,
       "history": [
-        {
-          "timestamp": "2026-10-21T09:18:33.727Z",
-          "status": "operational",
-          "response_ms": 655,
-          "http_code": 200
-        },
         {
           "timestamp": "2026-10-21T14:57:50.079Z",
           "status": "operational",
@@ -1814,6 +1808,12 @@
           "status": "operational",
           "response_ms": 779,
           "http_code": 200
+        },
+        {
+          "timestamp": "2026-10-31T02:08:28.416Z",
+          "status": "operational",
+          "response_ms": 588,
+          "http_code": 200
         }
       ]
     },
@@ -1824,16 +1824,10 @@
       "url": "https://catfact.ninja/fact",
       "docs_url": "https://catfact.ninja",
       "status": "operational",
-      "response_ms": 550,
+      "response_ms": 316,
       "http_code": 200,
       "uptime_24h": 100,
       "history": [
-        {
-          "timestamp": "2026-10-21T09:18:33.727Z",
-          "status": "operational",
-          "response_ms": 710,
-          "http_code": 200
-        },
         {
           "timestamp": "2026-10-21T14:57:50.079Z",
           "status": "operational",
@@ -2115,6 +2109,12 @@
           "status": "operational",
           "response_ms": 550,
           "http_code": 200
+        },
+        {
+          "timestamp": "2026-10-31T02:08:28.416Z",
+          "status": "operational",
+          "response_ms": 316,
+          "http_code": 200
         }
       ]
     },
@@ -2125,16 +2125,10 @@
       "url": "https://official-joke-api.appspot.com/random_joke",
       "docs_url": "https://github.com/15Dkatz/official_joke_api",
       "status": "operational",
-      "response_ms": 421,
+      "response_ms": 330,
       "http_code": 200,
       "uptime_24h": 100,
       "history": [
-        {
-          "timestamp": "2026-10-21T09:18:33.727Z",
-          "status": "operational",
-          "response_ms": 602,
-          "http_code": 200
-        },
         {
           "timestamp": "2026-10-21T14:57:50.079Z",
           "status": "operational",
@@ -2416,6 +2410,12 @@
           "status": "operational",
           "response_ms": 421,
           "http_code": 200
+        },
+        {
+          "timestamp": "2026-10-31T02:08:28.416Z",
+          "status": "operational",
+          "response_ms": 330,
+          "http_code": 200
         }
       ]
     },
@@ -2425,17 +2425,11 @@
       "category": "Fun",
       "url": "https://api.chucknorris.io/jokes/random",
       "docs_url": "https://api.chucknorris.io",
-      "status": "degraded",
-      "response_ms": 1020,
+      "status": "operational",
+      "response_ms": 364,
       "http_code": 200,
       "uptime_24h": 100,
       "history": [
-        {
-          "timestamp": "2026-10-21T09:18:33.727Z",
-          "status": "degraded",
-          "response_ms": 1059,
-          "http_code": 200
-        },
         {
           "timestamp": "2026-10-21T14:57:50.079Z",
           "status": "degraded",
@@ -2717,6 +2711,12 @@
           "status": "degraded",
           "response_ms": 1020,
           "http_code": 200
+        },
+        {
+          "timestamp": "2026-10-31T02:08:28.416Z",
+          "status": "operational",
+          "response_ms": 364,
+          "http_code": 200
         }
       ]
     },
@@ -2727,16 +2727,10 @@
       "url": "https://api.imgflip.com/get_memes",
       "docs_url": "https://imgflip.com/api",
       "status": "operational",
-      "response_ms": 588,
+      "response_ms": 337,
       "http_code": 200,
       "uptime_24h": 100,
       "history": [
-        {
-          "timestamp": "2026-10-21T09:18:33.727Z",
-          "status": "operational",
-          "response_ms": 664,
-          "http_code": 200
-        },
         {
           "timestamp": "2026-10-21T14:57:50.079Z",
           "status": "operational",
@@ -3018,6 +3012,12 @@
           "status": "operational",
           "response_ms": 588,
           "http_code": 200
+        },
+        {
+          "timestamp": "2026-10-31T02:08:28.416Z",
+          "status": "operational",
+          "response_ms": 337,
+          "http_code": 200
         }
       ]
     },
@@ -3028,16 +3028,10 @@
       "url": "https://bored-api.appbrewery.com/random",
       "docs_url": "https://bored-api.appbrewery.com",
       "status": "operational",
-      "response_ms": 846,
+      "response_ms": 395,
       "http_code": 200,
       "uptime_24h": 100,
       "history": [
-        {
-          "timestamp": "2026-10-21T09:18:33.727Z",
-          "status": "operational",
-          "response_ms": 817,
-          "http_code": 200
-        },
         {
           "timestamp": "2026-10-21T14:57:50.079Z",
           "status": "degraded",
@@ -3319,6 +3313,12 @@
           "status": "operational",
           "response_ms": 846,
           "http_code": 200
+        },
+        {
+          "timestamp": "2026-10-31T02:08:28.416Z",
+          "status": "operational",
+          "response_ms": 395,
+          "http_code": 200
         }
       ]
     },
@@ -3328,17 +3328,11 @@
       "category": "Fun",
       "url": "https://api.tvmaze.com/singlesearch/shows?q=girls",
       "docs_url": "https://www.tvmaze.com/api",
-      "status": "degraded",
-      "response_ms": 1025,
+      "status": "operational",
+      "response_ms": 646,
       "http_code": 200,
       "uptime_24h": 100,
       "history": [
-        {
-          "timestamp": "2026-10-21T09:18:33.727Z",
-          "status": "degraded",
-          "response_ms": 1104,
-          "http_code": 200
-        },
         {
           "timestamp": "2026-10-21T14:57:50.079Z",
           "status": "degraded",
@@ -3620,6 +3614,12 @@
           "status": "degraded",
           "response_ms": 1025,
           "http_code": 200
+        },
+        {
+          "timestamp": "2026-10-31T02:08:28.416Z",
+          "status": "operational",
+          "response_ms": 646,
+          "http_code": 200
         }
       ]
     },
@@ -3630,16 +3630,10 @@
       "url": "https://uselessfacts.jsph.pl/api/v2/facts/random",
       "docs_url": "https://uselessfacts.jsph.pl",
       "status": "degraded",
-      "response_ms": 1180,
+      "response_ms": 1052,
       "http_code": 200,
       "uptime_24h": 100,
       "history": [
-        {
-          "timestamp": "2026-10-21T09:18:33.727Z",
-          "status": "degraded",
-          "response_ms": 1284,
-          "http_code": 200
-        },
         {
           "timestamp": "2026-10-21T14:57:50.079Z",
           "status": "degraded",
@@ -3921,6 +3915,12 @@
           "status": "degraded",
           "response_ms": 1180,
           "http_code": 200
+        },
+        {
+          "timestamp": "2026-10-31T02:08:28.416Z",
+          "status": "degraded",
+          "response_ms": 1052,
+          "http_code": 200
         }
       ]
     },
@@ -3931,16 +3931,10 @@
       "url": "https://api.coingecko.com/api/v3/ping",
       "docs_url": "https://www.coingecko.com/en/api/documentation",
       "status": "operational",
-      "response_ms": 746,
+      "response_ms": 550,
       "http_code": 200,
       "uptime_24h": 100,
       "history": [
-        {
-          "timestamp": "2026-10-21T09:18:33.727Z",
-          "status": "operational",
-          "response_ms": 800,
-          "http_code": 200
-        },
         {
           "timestamp": "2026-10-21T14:57:50.079Z",
           "status": "degraded",
@@ -4222,6 +4216,12 @@
           "status": "operational",
           "response_ms": 746,
           "http_code": 200
+        },
+        {
+          "timestamp": "2026-10-31T02:08:28.416Z",
+          "status": "operational",
+          "response_ms": 550,
+          "http_code": 200
         }
       ]
     },
@@ -4232,16 +4232,10 @@
       "url": "https://api.frankfurter.app/latest",
       "docs_url": "https://frankfurter.dev",
       "status": "degraded",
-      "response_ms": 2318,
+      "response_ms": 1544,
       "http_code": 200,
       "uptime_24h": 100,
       "history": [
-        {
-          "timestamp": "2026-10-21T09:18:33.727Z",
-          "status": "degraded",
-          "response_ms": 1676,
-          "http_code": 200
-        },
         {
           "timestamp": "2026-10-21T14:57:50.079Z",
           "status": "degraded",
@@ -4523,6 +4517,12 @@
           "status": "degraded",
           "response_ms": 2318,
           "http_code": 200
+        },
+        {
+          "timestamp": "2026-10-31T02:08:28.416Z",
+          "status": "degraded",
+          "response_ms": 1544,
+          "http_code": 200
         }
       ]
     },
@@ -4533,16 +4533,10 @@
       "url": "https://api.coinpaprika.com/v1/ping",
       "docs_url": "https://api.coinpaprika.com",
       "status": "operational",
-      "response_ms": 985,
+      "response_ms": 557,
       "http_code": 200,
       "uptime_24h": 100,
       "history": [
-        {
-          "timestamp": "2026-10-21T09:18:33.727Z",
-          "status": "degraded",
-          "response_ms": 1027,
-          "http_code": 200
-        },
         {
           "timestamp": "2026-10-21T14:57:50.079Z",
           "status": "degraded",
@@ -4824,6 +4818,12 @@
           "status": "operational",
           "response_ms": 985,
           "http_code": 200
+        },
+        {
+          "timestamp": "2026-10-31T02:08:28.416Z",
+          "status": "operational",
+          "response_ms": 557,
+          "http_code": 200
         }
       ]
     },
@@ -4834,16 +4834,10 @@
       "url": "https://api.coinbase.com/v2/exchange-rates?currency=USD",
       "docs_url": "https://docs.cdp.coinbase.com",
       "status": "operational",
-      "response_ms": 875,
+      "response_ms": 561,
       "http_code": 200,
       "uptime_24h": 100,
       "history": [
-        {
-          "timestamp": "2026-10-21T09:18:33.727Z",
-          "status": "operational",
-          "response_ms": 930,
-          "http_code": 200
-        },
         {
           "timestamp": "2026-10-21T14:57:50.079Z",
           "status": "degraded",
@@ -5125,6 +5119,12 @@
           "status": "operational",
           "response_ms": 875,
           "http_code": 200
+        },
+        {
+          "timestamp": "2026-10-31T02:08:28.416Z",
+          "status": "operational",
+          "response_ms": 561,
+          "http_code": 200
         }
       ]
     },
@@ -5135,16 +5135,10 @@
       "url": "https://api.binance.com/api/v3/ping",
       "docs_url": "https://binance-docs.github.io/apidocs/spot/en",
       "status": "down",
-      "response_ms": 7,
+      "response_ms": 4,
       "http_code": 451,
       "uptime_24h": 4.2,
       "history": [
-        {
-          "timestamp": "2026-10-21T09:18:33.727Z",
-          "status": "down",
-          "response_ms": 2,
-          "http_code": 451
-        },
         {
           "timestamp": "2026-10-21T14:57:50.079Z",
           "status": "down",
@@ -5426,6 +5420,12 @@
           "status": "down",
           "response_ms": 7,
           "http_code": 451
+        },
+        {
+          "timestamp": "2026-10-31T02:08:28.416Z",
+          "status": "down",
+          "response_ms": 4,
+          "http_code": 451
         }
       ]
     },
@@ -5436,16 +5436,10 @@
       "url": "https://jsonplaceholder.typicode.com/posts/1",
       "docs_url": "https://jsonplaceholder.typicode.com",
       "status": "operational",
-      "response_ms": 946,
+      "response_ms": 622,
       "http_code": 200,
       "uptime_24h": 100,
       "history": [
-        {
-          "timestamp": "2026-10-21T09:18:33.727Z",
-          "status": "operational",
-          "response_ms": 911,
-          "http_code": 200
-        },
         {
           "timestamp": "2026-10-21T14:57:50.079Z",
           "status": "degraded",
@@ -5727,6 +5721,12 @@
           "status": "operational",
           "response_ms": 946,
           "http_code": 200
+        },
+        {
+          "timestamp": "2026-10-31T02:08:28.416Z",
+          "status": "operational",
+          "response_ms": 622,
+          "http_code": 200
         }
       ]
     },
@@ -5737,16 +5737,10 @@
       "url": "https://api.github.com/zen",
       "docs_url": "https://docs.github.com/en/rest",
       "status": "operational",
-      "response_ms": 891,
+      "response_ms": 685,
       "http_code": 200,
       "uptime_24h": 100,
       "history": [
-        {
-          "timestamp": "2026-10-21T09:18:33.727Z",
-          "status": "degraded",
-          "response_ms": 1095,
-          "http_code": 200
-        },
         {
           "timestamp": "2026-10-21T14:57:50.079Z",
           "status": "degraded",
@@ -6028,6 +6022,12 @@
           "status": "operational",
           "response_ms": 891,
           "http_code": 200
+        },
+        {
+          "timestamp": "2026-10-31T02:08:28.416Z",
+          "status": "operational",
+          "response_ms": 685,
+          "http_code": 200
         }
       ]
     },
@@ -6038,16 +6038,10 @@
       "url": "https://httpbin.org/get",
       "docs_url": "https://httpbin.org",
       "status": "operational",
-      "response_ms": 977,
+      "response_ms": 668,
       "http_code": 200,
       "uptime_24h": 100,
       "history": [
-        {
-          "timestamp": "2026-10-21T09:18:33.727Z",
-          "status": "degraded",
-          "response_ms": 1112,
-          "http_code": 200
-        },
         {
           "timestamp": "2026-10-21T14:57:50.079Z",
           "status": "degraded",
@@ -6329,6 +6323,12 @@
           "status": "operational",
           "response_ms": 977,
           "http_code": 200
+        },
+        {
+          "timestamp": "2026-10-31T02:08:28.416Z",
+          "status": "operational",
+          "response_ms": 668,
+          "http_code": 200
         }
       ]
     },
@@ -6338,17 +6338,11 @@
       "category": "Dev Tools",
       "url": "https://reqres.in/api/users/1",
       "docs_url": "https://reqres.in",
-      "status": "degraded",
-      "response_ms": 1111,
+      "status": "operational",
+      "response_ms": 863,
       "http_code": 200,
       "uptime_24h": 100,
       "history": [
-        {
-          "timestamp": "2026-10-21T09:18:33.727Z",
-          "status": "degraded",
-          "response_ms": 1247,
-          "http_code": 200
-        },
         {
           "timestamp": "2026-10-21T14:57:50.079Z",
           "status": "degraded",
@@ -6630,6 +6624,12 @@
           "status": "degraded",
           "response_ms": 1111,
           "http_code": 200
+        },
+        {
+          "timestamp": "2026-10-31T02:08:28.416Z",
+          "status": "operational",
+          "response_ms": 863,
+          "http_code": 200
         }
       ]
     },
@@ -6640,16 +6640,10 @@
       "url": "https://api.dicebear.com/7.x/bottts/svg?seed=Felix",
       "docs_url": "https://www.dicebear.com/how-to-use/http-api",
       "status": "operational",
-      "response_ms": 896,
+      "response_ms": 808,
       "http_code": 200,
       "uptime_24h": 100,
       "history": [
-        {
-          "timestamp": "2026-10-21T09:18:33.727Z",
-          "status": "degraded",
-          "response_ms": 1187,
-          "http_code": 200
-        },
         {
           "timestamp": "2026-10-21T14:57:50.079Z",
           "status": "degraded",
@@ -6931,6 +6925,12 @@
           "status": "operational",
           "response_ms": 896,
           "http_code": 200
+        },
+        {
+          "timestamp": "2026-10-31T02:08:28.416Z",
+          "status": "operational",
+          "response_ms": 808,
+          "http_code": 200
         }
       ]
     },
@@ -6941,16 +6941,10 @@
       "url": "https://restcountries.com/v3.1/alpha/us",
       "docs_url": "https://restcountries.com",
       "status": "degraded",
-      "response_ms": 2515,
+      "response_ms": 1560,
       "http_code": 200,
       "uptime_24h": 100,
       "history": [
-        {
-          "timestamp": "2026-10-21T09:18:33.727Z",
-          "status": "degraded",
-          "response_ms": 1891,
-          "http_code": 200
-        },
         {
           "timestamp": "2026-10-21T14:57:50.079Z",
           "status": "degraded",
@@ -7232,6 +7226,12 @@
           "status": "degraded",
           "response_ms": 2515,
           "http_code": 200
+        },
+        {
+          "timestamp": "2026-10-31T02:08:28.416Z",
+          "status": "degraded",
+          "response_ms": 1560,
+          "http_code": 200
         }
       ]
     },
@@ -7241,17 +7241,11 @@
       "category": "Geo",
       "url": "https://api.ipify.org?format=json",
       "docs_url": "https://www.ipify.org",
-      "status": "degraded",
-      "response_ms": 1071,
+      "status": "operational",
+      "response_ms": 812,
       "http_code": 200,
       "uptime_24h": 100,
       "history": [
-        {
-          "timestamp": "2026-10-21T09:18:33.727Z",
-          "status": "degraded",
-          "response_ms": 1051,
-          "http_code": 200
-        },
         {
           "timestamp": "2026-10-21T14:57:50.079Z",
           "status": "degraded",
@@ -7533,6 +7527,12 @@
           "status": "degraded",
           "response_ms": 1071,
           "http_code": 200
+        },
+        {
+          "timestamp": "2026-10-31T02:08:28.416Z",
+          "status": "operational",
+          "response_ms": 812,
+          "http_code": 200
         }
       ]
     },
@@ -7543,16 +7543,10 @@
       "url": "https://ipwho.is/8.8.8.8",
       "docs_url": "https://ipwhois.io/documentation",
       "status": "degraded",
-      "response_ms": 1145,
+      "response_ms": 1012,
       "http_code": 200,
       "uptime_24h": 100,
       "history": [
-        {
-          "timestamp": "2026-10-21T09:18:33.727Z",
-          "status": "degraded",
-          "response_ms": 1010,
-          "http_code": 200
-        },
         {
           "timestamp": "2026-10-21T14:57:50.079Z",
           "status": "degraded",
@@ -7834,6 +7828,12 @@
           "status": "degraded",
           "response_ms": 1145,
           "http_code": 200
+        },
+        {
+          "timestamp": "2026-10-31T02:08:28.416Z",
+          "status": "degraded",
+          "response_ms": 1012,
+          "http_code": 200
         }
       ]
     },
@@ -7843,17 +7843,11 @@
       "category": "Geo",
       "url": "https://api.postcodes.io/postcodes/SW1A1AA",
       "docs_url": "https://postcodes.io",
-      "status": "degraded",
-      "response_ms": 1211,
+      "status": "operational",
+      "response_ms": 940,
       "http_code": 200,
       "uptime_24h": 100,
       "history": [
-        {
-          "timestamp": "2026-10-21T09:18:33.727Z",
-          "status": "degraded",
-          "response_ms": 1173,
-          "http_code": 200
-        },
         {
           "timestamp": "2026-10-21T14:57:50.079Z",
           "status": "degraded",
@@ -8135,6 +8129,12 @@
           "status": "degraded",
           "response_ms": 1211,
           "http_code": 200
+        },
+        {
+          "timestamp": "2026-10-31T02:08:28.416Z",
+          "status": "operational",
+          "response_ms": 940,
+          "http_code": 200
         }
       ]
     },
@@ -8145,16 +8145,10 @@
       "url": "https://geocoding-api.open-meteo.com/v1/search?name=Berlin&count=1",
       "docs_url": "https://open-meteo.com/en/docs/geocoding-api",
       "status": "degraded",
-      "response_ms": 1736,
+      "response_ms": 1304,
       "http_code": 200,
       "uptime_24h": 100,
       "history": [
-        {
-          "timestamp": "2026-10-21T09:18:33.727Z",
-          "status": "degraded",
-          "response_ms": 1717,
-          "http_code": 200
-        },
         {
           "timestamp": "2026-10-21T14:57:50.079Z",
           "status": "degraded",
@@ -8436,6 +8430,12 @@
           "status": "degraded",
           "response_ms": 1736,
           "http_code": 200
+        },
+        {
+          "timestamp": "2026-10-31T02:08:28.416Z",
+          "status": "degraded",
+          "response_ms": 1304,
+          "http_code": 200
         }
       ]
     },
@@ -8445,17 +8445,11 @@
       "category": "Geo",
       "url": "https://api.zippopotam.us/us/90210",
       "docs_url": "https://www.zippopotam.us",
-      "status": "degraded",
-      "response_ms": 1166,
+      "status": "operational",
+      "response_ms": 946,
       "http_code": 200,
       "uptime_24h": 100,
       "history": [
-        {
-          "timestamp": "2026-10-21T09:18:33.727Z",
-          "status": "degraded",
-          "response_ms": 1142,
-          "http_code": 200
-        },
         {
           "timestamp": "2026-10-21T14:57:50.079Z",
           "status": "degraded",
@@ -8737,6 +8731,12 @@
           "status": "degraded",
           "response_ms": 1166,
           "http_code": 200
+        },
+        {
+          "timestamp": "2026-10-31T02:08:28.416Z",
+          "status": "operational",
+          "response_ms": 946,
+          "http_code": 200
         }
       ]
     },
@@ -8747,16 +8747,10 @@
       "url": "https://openlibrary.org/books/OL7353617M.json",
       "docs_url": "https://openlibrary.org/developers/api",
       "status": "degraded",
-      "response_ms": 1497,
+      "response_ms": 1502,
       "http_code": 200,
       "uptime_24h": 100,
       "history": [
-        {
-          "timestamp": "2026-10-21T09:18:33.727Z",
-          "status": "degraded",
-          "response_ms": 1232,
-          "http_code": 200
-        },
         {
           "timestamp": "2026-10-21T14:57:50.079Z",
           "status": "degraded",
@@ -9038,6 +9032,12 @@
           "status": "degraded",
           "response_ms": 1497,
           "http_code": 200
+        },
+        {
+          "timestamp": "2026-10-31T02:08:28.416Z",
+          "status": "degraded",
+          "response_ms": 1502,
+          "http_code": 200
         }
       ]
     },
@@ -9048,16 +9048,10 @@
       "url": "https://api.artic.edu/api/v1/artworks/129884",
       "docs_url": "https://api.artic.edu/docs",
       "status": "degraded",
-      "response_ms": 1724,
+      "response_ms": 1136,
       "http_code": 200,
       "uptime_24h": 100,
       "history": [
-        {
-          "timestamp": "2026-10-21T09:18:33.727Z",
-          "status": "degraded",
-          "response_ms": 1466,
-          "http_code": 200
-        },
         {
           "timestamp": "2026-10-21T14:57:50.079Z",
           "status": "degraded",
@@ -9339,6 +9333,12 @@
           "status": "degraded",
           "response_ms": 1724,
           "http_code": 200
+        },
+        {
+          "timestamp": "2026-10-31T02:08:28.416Z",
+          "status": "degraded",
+          "response_ms": 1136,
+          "http_code": 200
         }
       ]
     },
@@ -9349,16 +9349,10 @@
       "url": "https://api.agify.io?name=michael",
       "docs_url": "https://agify.io",
       "status": "degraded",
-      "response_ms": 2143,
+      "response_ms": 1250,
       "http_code": 200,
       "uptime_24h": 100,
       "history": [
-        {
-          "timestamp": "2026-10-21T09:18:33.727Z",
-          "status": "degraded",
-          "response_ms": 1696,
-          "http_code": 200
-        },
         {
           "timestamp": "2026-10-21T14:57:50.079Z",
           "status": "degraded",
@@ -9640,6 +9634,12 @@
           "status": "degraded",
           "response_ms": 2143,
           "http_code": 200
+        },
+        {
+          "timestamp": "2026-10-31T02:08:28.416Z",
+          "status": "degraded",
+          "response_ms": 1250,
+          "http_code": 200
         }
       ]
     },
@@ -9650,16 +9650,10 @@
       "url": "https://api.genderize.io?name=luc",
       "docs_url": "https://genderize.io",
       "status": "degraded",
-      "response_ms": 2303,
+      "response_ms": 1336,
       "http_code": 200,
       "uptime_24h": 100,
       "history": [
-        {
-          "timestamp": "2026-10-21T09:18:33.727Z",
-          "status": "degraded",
-          "response_ms": 1667,
-          "http_code": 200
-        },
         {
           "timestamp": "2026-10-21T14:57:50.079Z",
           "status": "degraded",
@@ -9941,6 +9935,12 @@
           "status": "degraded",
           "response_ms": 2303,
           "http_code": 200
+        },
+        {
+          "timestamp": "2026-10-31T02:08:28.416Z",
+          "status": "degraded",
+          "response_ms": 1336,
+          "http_code": 200
         }
       ]
     },
@@ -9951,16 +9951,10 @@
       "url": "https://api.datamuse.com/words?rel_rhy=forget",
       "docs_url": "https://www.datamuse.com/api",
       "status": "degraded",
-      "response_ms": 2032,
+      "response_ms": 1349,
       "http_code": 200,
       "uptime_24h": 100,
       "history": [
-        {
-          "timestamp": "2026-10-21T09:18:33.727Z",
-          "status": "degraded",
-          "response_ms": 1580,
-          "http_code": 200
-        },
         {
           "timestamp": "2026-10-21T14:57:50.079Z",
           "status": "degraded",
@@ -10242,6 +10236,12 @@
           "status": "degraded",
           "response_ms": 2032,
           "http_code": 200
+        },
+        {
+          "timestamp": "2026-10-31T02:08:28.416Z",
+          "status": "degraded",
+          "response_ms": 1349,
+          "http_code": 200
         }
       ]
     },
@@ -10252,16 +10252,10 @@
       "url": "https://randomuser.me/api/?results=1",
       "docs_url": "https://randomuser.me/documentation",
       "status": "degraded",
-      "response_ms": 2361,
+      "response_ms": 1333,
       "http_code": 200,
       "uptime_24h": 100,
       "history": [
-        {
-          "timestamp": "2026-10-21T09:18:33.727Z",
-          "status": "degraded",
-          "response_ms": 1578,
-          "http_code": 200
-        },
         {
           "timestamp": "2026-10-21T14:57:50.079Z",
           "status": "degraded",
@@ -10543,6 +10537,12 @@
           "status": "degraded",
           "response_ms": 2361,
           "http_code": 200
+        },
+        {
+          "timestamp": "2026-10-31T02:08:28.416Z",
+          "status": "degraded",
+          "response_ms": 1333,
+          "http_code": 200
         }
       ]
     },
@@ -10553,16 +10553,10 @@
       "url": "https://api.wheretheiss.at/v1/satellites/25544",
       "docs_url": "https://wheretheiss.at/w/developer",
       "status": "degraded",
-      "response_ms": 2511,
+      "response_ms": 1830,
       "http_code": 200,
       "uptime_24h": 100,
       "history": [
-        {
-          "timestamp": "2026-10-21T09:18:33.727Z",
-          "status": "degraded",
-          "response_ms": 2057,
-          "http_code": 200
-        },
         {
           "timestamp": "2026-10-21T14:57:50.079Z",
           "status": "degraded",
@@ -10843,6 +10837,12 @@
           "timestamp": "2026-10-30T22:51:33.347Z",
           "status": "degraded",
           "response_ms": 2511,
+          "http_code": 200
+        },
+        {
+          "timestamp": "2026-10-31T02:08:28.416Z",
+          "status": "degraded",
+          "response_ms": 1830,
           "http_code": 200
         }
       ]
